@@ -1,0 +1,145 @@
+{
+	"SiteAdditionalParameter" : [
+     {"name":"Service Type","iassetField":"serviceType","itowerField":"157","fieldType":"Text","isMandatory":false},
+	 {"name":"Building Height","iassetField":"buildingheight","itowerField":"169","fieldType":"Text","isMandatory":false},
+	 {"name":"Current Monthly Lease (Php)","iassetField":"currentmonthlylease","itowerField":"188","fieldType":"Text","isMandatory":false},
+	 {"name":"Design EPA","iassetField":"designepa","itowerField":"172","fieldType":"Text","isMandatory":false},
+	 {"name":"Existing MW EPA","iassetField":"existingmwepa","itowerField":"182","fieldType":"Text","isMandatory":false},
+	 {"name":"Existing MW Load","iassetField":"existingmwload","itowerField":"181","fieldType":"Text","isMandatory":false},
+	 {"name":"Fibre-ised Tower","iassetField":"fibreisedtower","itowerField":"178","fieldType":"Picklist","isMandatory":false},
+	 {"name":"Ground Ownership Status","iassetField":"groundownershipstatus","itowerField":"185","fieldType":"Text","isMandatory":false},
+	 {"name":"Lease Assignability ","iassetField":"leaseassignability","itowerField":"189","fieldType":"Picklist","isMandatory":false},
+	 {"name":"Lease Premise Area Size","iassetField":"leasepremiseareasize","itowerField":"187","fieldType":"Text","isMandatory":false},
+	 {"name":"Lease end date","iassetField":"leaseenddate","itowerField":"186","fieldType":"Text","isMandatory":false},
+	 {"name":"Lithium Battery Installed","iassetField":"lithiumbatteryinstalled","itowerField":"156","fieldType":"Picklist","isMandatory":false},
+	 {"name":"Peak Design Power Capacity (W)","iassetField":"peakdesignpowercapacity","itowerField":"174","fieldType":"Text","isMandatory":false},
+	 {"name":"RPT YA Paid","iassetField":"rptyapaid","itowerField":"191","fieldType":"Text","isMandatory":false},
+	 {"name":"Room / Shelter Dimension","iassetField":"roomshelterdimension","itowerField":"177","fieldType":"Text","isMandatory":false},
+	 {"name":"Room / Shelter Type","iassetField":"roomsheltertype","itowerField":"176","fieldType":"Text","isMandatory":false},
+	 {"name":"Status of RPT","iassetField":"statusofrpt","itowerField":"190","fieldType":"Text","isMandatory":false},
+	 {"name":"Total Existing EPA","iassetField":"totalepa","itowerField":"184","fieldType":"Text","isMandatory":false},
+	 {"name":"Tower Classification","iassetField":"towerclassification","itowerField":"168","fieldType":"Picklist","isMandatory":false},
+	 {"name":"Tower Height","iassetField":"towerheight","itowerField":"180","fieldType":"Text","isMandatory":false},
+	 {"name":"Tower Type","iassetField":"towertype","itowerField":"167","fieldType":"Picklist","isMandatory":false},
+	 {"name":"Utilized / Reserved EPA","iassetField":"utilizedreservedepa","itowerField":"173","fieldType":"Text","isMandatory":false},
+	 {"name":"Utilized / Reserved Power","iassetField":"utilizedreservedpower","itowerField":"175","fieldType":"Text","isMandatory":false},
+	 {"name":"Wind Speed Design","iassetField":"windspeeddesign","itowerField":"171","fieldType":"Picklist","isMandatory":false},
+	 {"name":"Wind Speed Zone","iassetField":"windspeedzone","itowerField":"170","fieldType":"Text","isMandatory":false},
+	 {"name":"Lessor Name","iassetField":"landlordName","itowerField":"5417","fieldType":"Text","isMandatory":false},
+	 {"name":"Site Handover Date","iassetField":"sitehandoverdate","itowerField":"158","fieldType":"Date","isMandatory":false, "format":"MM/d/yy, hh:mm tt", "outFormat":"dd-MMM-yyyy"}
+    ],
+    "AssetTypes":[
+		{"iassetId" : "1", "itowerId":"115", "equipType" : "DG", "attributes":[
+													{"name":"DG Type","iassetField":"1","itowerField":"dgType","fieldType":"Picklist","isMandatory":true},
+													{"name":"DG Capacity","iassetField":"135","itowerField":"dgCapacity","fieldType":"text","isMandatory":true},
+													{"name":"DG Tank Capacity","iassetField":"2","itowerField":"dgTankCapacity","fieldType":"Decimal","isMandatory":true},
+													{"name":"Standard CPH","iassetField":"3","itowerField":"stdCPH","fieldType":"Decimal","isMandatory":false},
+													{"name":"Maximum Thershold","iassetField":"4","itowerField":"maxThershold","fieldType":"Decimal","isMandatory":false},
+													{"name":"Minimum Thershold","iassetField":"5","itowerField":"minThershold","fieldType":"Decimal","isMandatory":false},
+													{"name":"Warranty Date","iassetField":"106","itowerField":"warrantyDate","fieldType":"Date","isMandatory":false},
+													{"name":"PM Reminder Unit","iassetField":"6","itowerField":"pmReminderUnit","fieldType":"Picklist","isMandatory":true,"defaultValue":"23002"},
+													{"name":"PM Reminder Duration","iassetField":"7","itowerField":"pmReminderDuration","fieldType":"Decimal","isMandatory":false},
+													{"name":"PM Source","iassetField":"8","itowerField":"pmSource","fieldType":"Picklist","isMandatory":false},
+													{"name":"Avg Run Hours","iassetField":"9","itowerField":"avgRunHours","fieldType":"Decimal","isMandatory":false},
+													{"name":"Last Reading","iassetField":"10","itowerField":"lastReading","fieldType":"Decimal","isMandatory":false},
+													{"name":"Last Reading Date","iassetField":"11","itowerField":"lastReadingDate","fieldType":"Date","isMandatory":false, "format":"yyyy-MM-ddTHH:mm:ss.fffZ"},
+													{"name":"Tank Type","iassetField":"12","itowerField":"dgTankType","fieldType":"Picklist","isMandatory":true, "defaultValue":"1"},
+													{"name":"DG Make","iassetField":"13","itowerField":"dgMake","fieldType":"Picklist","isMandatory":true,"defaultValue":"300"}
+												]
+		},
+		{"iassetId" : "18", "itowerId":"128", "equipType" : "CONTROLLER", "attributes":[
+													{"name":"Controller Vendor","iassetField":"84","itowerField":"pwrVendor","fieldType":"Picklist","isMandatory":true, "defaultValue":"Saltec"},
+													{"name":"Controller IP1","iassetField":"85","itowerField":"ctrlIPAdd1","fieldType":"Text","isMandatory":false},
+													{"name":"Controller MISDN1","iassetField":"86","itowerField":"msisdn1","fieldType":"Text","isMandatory":false},
+													{"name":"Controller MISDN2","iassetField":"87","itowerField":"msisdn2","fieldType":"Text","isMandatory":false},
+													{"name":"Controller Port","iassetField":"88","itowerField":"ctrlPort","fieldType":"Integer","isMandatory":false},
+													{"name":"Interface Type","iassetField":"89","itowerField":"interfaceType","fieldType":"Picklist","isMandatory":false},
+													{"name":"SNMP Version","iassetField":"90","itowerField":"snmpVersion","fieldType":"Picklist","isMandatory":false},
+													{"name":"User Id","iassetField":"91","itowerField":"userId","fieldType":"Text","isMandatory":false},
+													{"name":"Password","iassetField":"92","itowerField":"password","fieldType":"Text","isMandatory":false},
+													{"name":"Auth Protocol","iassetField":"393","itowerField":"authProtocol","fieldType":"Picklist","isMandatory":false},
+													{"name":"Community Id","iassetField":"93","itowerField":"communityId","fieldType":"Text","isMandatory":false},
+													{"name":"Cabinet Type","iassetField":"94","itowerField":"cabinetType","fieldType":"Picklist","isMandatory":false},
+													{"name":"Node Id","iassetField":"95","itowerField":"nodeId","fieldType":"Text","isMandatory":false},
+													{"name":"Actual Site Id","iassetField":"96","itowerField":"actualSiteId","fieldType":"Text","isMandatory":false}												
+												]
+		},
+		{"iassetId" : "5", "equipType":"AC Meter", "itowerId":"9",  "attributes":[
+													{"iassetField":"43","itowerField":"equipMake","fieldType":"Picklist","isMandatory":true},
+													{"iassetField":"44","itowerField":"measurment","fieldType":"Text","isMandatory":false},
+													{"iassetField":"45","itowerField":"measurmentUnit","fieldType":"Text","isMandatory":false},
+													{"name":"warrantyDate","iassetField":"46","itowerField":"lastReadingDate","fieldType":"Date","isMandatory":false, "format":"yyyy-MM-ddTHH:mm:ss.fffZ"}
+												]
+		},
+		{"iassetId" : "6", "equipType":"Battery", "itowerId":"103",  "attributes":[
+													{"iassetField":"49","itowerField":"equipMake","fieldType":"Picklist","isMandatory":true},
+													{"iassetField":"50","itowerField":"measurment","fieldType":"Text","isMandatory":false},
+													{"iassetField":"51","itowerField":"measurmentUnit","fieldType":"Text","isMandatory":false},
+													{"name":"warrantyDate","iassetField":"46","itowerField":"lastReadingDate","fieldType":"Date","isMandatory":false, "format":"yyyy-MM-ddTHH:mm:ss.fffZ"}
+												]
+		},
+		{"iassetId" : "7", "equipType":"RMS/RTU", "itowerId":"106",  "attributes":[
+													{"iassetField":"52","itowerField":"equipMake","fieldType":"Picklist","isMandatory":true},
+													{"iassetField":"53","itowerField":"measurment","fieldType":"Text","isMandatory":false},
+													{"iassetField":"54","itowerField":"measurmentUnit","fieldType":"Text","isMandatory":false},
+													{"name":"warrantyDate","iassetField":"46","itowerField":"lastReadingDate","fieldType":"Date","isMandatory":false, "format":"yyyy-MM-ddTHH:mm:ss.fffZ"}
+												]
+		},
+		{"iassetId" : "8", "equipType":"Fire Extinguishers", "itowerId":"110",  "attributes":[
+													{"iassetField":"55","itowerField":"equipMake","fieldType":"Picklist","isMandatory":true},
+													{"iassetField":"56","itowerField":"measurment","fieldType":"Text","isMandatory":false},
+													{"iassetField":"57","itowerField":"measurmentUnit","fieldType":"Text","isMandatory":false},
+													{"name":"warrantyDate","iassetField":"46","itowerField":"lastReadingDate","fieldType":"Date","isMandatory":false, "format":"yyyy-MM-ddTHH:mm:ss.fffZ"}
+												]
+		},
+		{"iassetId" : "9", "equipType":"Security Equipment", "itowerId":"111",  "attributes":[
+													{"iassetField":"58","itowerField":"equipMake","fieldType":"Picklist","isMandatory":true},
+													{"iassetField":"59","itowerField":"measurment","fieldType":"Text","isMandatory":false},
+													{"iassetField":"60","itowerField":"measurmentUnit","fieldType":"Text","isMandatory":false},
+													{"name":"warrantyDate","iassetField":"46","itowerField":"lastReadingDate","fieldType":"Date","isMandatory":false, "format":"yyyy-MM-ddTHH:mm:ss.fffZ"}
+												]
+		},
+		{"iassetId" : "10", "equipType":"Solar", "itowerId":"112",  "attributes":[
+													{"iassetField":"61","itowerField":"equipMake","fieldType":"Picklist","isMandatory":true},
+													{"iassetField":"62","itowerField":"measurment","fieldType":"Text","isMandatory":false},
+													{"iassetField":"63","itowerField":"measurmentUnit","fieldType":"Text","isMandatory":false},
+													{"name":"warrantyDate","iassetField":"46","itowerField":"lastReadingDate","fieldType":"Date","isMandatory":false, "format":"yyyy-MM-ddTHH:mm:ss.fffZ"}
+												]
+		},
+		{"iassetId" : "11", "equipType":"Shelter", "itowerId":"113",  "attributes":[
+													{"iassetField":"64","itowerField":"equipMake","fieldType":"Picklist","isMandatory":true},
+													{"iassetField":"65","itowerField":"measurment","fieldType":"Text","isMandatory":false},
+													{"iassetField":"66","itowerField":"measurmentUnit","fieldType":"Text","isMandatory":false},
+													{"name":"warrantyDate","iassetField":"46","itowerField":"lastReadingDate","fieldType":"Date","isMandatory":false, "format":"yyyy-MM-ddTHH:mm:ss.fffZ"}
+												]
+		},
+		{"iassetId" : "12", "equipType":"Fuel Tank", "itowerId":"114",  "attributes":[
+													{"iassetField":"67","itowerField":"equipMake","fieldType":"Picklist","isMandatory":true},
+													{"iassetField":"68","itowerField":"measurment","fieldType":"Text","isMandatory":false},
+													{"iassetField":"69","itowerField":"measurmentUnit","fieldType":"Text","isMandatory":false},
+													{"name":"warrantyDate","iassetField":"46","itowerField":"lastReadingDate","fieldType":"Date","isMandatory":false, "format":"yyyy-MM-ddTHH:mm:ss.fffZ"}
+												]
+		},
+		{"iassetId" : "13", "equipType":"DC Meter", "itowerId":"117",  "attributes":[
+													{"iassetField":"70","itowerField":"equipMake","fieldType":"Picklist","isMandatory":true},
+													{"iassetField":"71","itowerField":"measurment","fieldType":"Text","isMandatory":false},
+													{"iassetField":"72","itowerField":"measurmentUnit","fieldType":"Text","isMandatory":false},
+													{"name":"warrantyDate","iassetField":"46","itowerField":"lastReadingDate","fieldType":"Date","isMandatory":false, "format":"yyyy-MM-ddTHH:mm:ss.fffZ"}
+												]
+		},
+		{"iassetId" : "16", "equipType":"EPC", "itowerId":"121",  "attributes":[
+													{"iassetField":"78","itowerField":"equipMake","fieldType":"Picklist","isMandatory":true},
+													{"iassetField":"79","itowerField":"measurment","fieldType":"Text","isMandatory":false},
+													{"iassetField":"80","itowerField":"measurmentUnit","fieldType":"Text","isMandatory":false},
+													{"name":"warrantyDate","iassetField":"46","itowerField":"lastReadingDate","fieldType":"Date","isMandatory":false, "format":"yyyy-MM-ddTHH:mm:ss.fffZ"}
+												]
+		},
+		{"iassetId" : "17", "equipType":"Rectifier", "itowerId":"131",  "attributes":[
+													{"iassetField":"81","itowerField":"equipMake","fieldType":"Picklist","isMandatory":true},
+													{"iassetField":"82","itowerField":"measurment","fieldType":"Text","isMandatory":false},
+													{"iassetField":"83","itowerField":"measurmentUnit","fieldType":"Text","isMandatory":false},
+													{"name":"warrantyDate","iassetField":"46","itowerField":"lastReadingDate","fieldType":"Date","isMandatory":false, "format":"yyyy-MM-ddTHH:mm:ss.fffZ"}
+												]
+		}
+	]	  	
+}
